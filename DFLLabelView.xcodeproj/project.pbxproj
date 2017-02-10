@@ -1,0 +1,664 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		050E3C5A174A2BEA0ABE8D24 /* libPods-DFLLabelView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 863F3C102CC820146E39EAB3 /* libPods-DFLLabelView.a */; };
+		61569F1B1E4D47D700C9657F /* CategoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 61569F1A1E4D47D700C9657F /* CategoryModel.m */; };
+		61584F7B1E4C0994007FB52F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61584F7A1E4C0994007FB52F /* main.m */; };
+		61584F7E1E4C0994007FB52F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61584F7D1E4C0994007FB52F /* AppDelegate.m */; };
+		61584F811E4C0994007FB52F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61584F801E4C0994007FB52F /* ViewController.m */; };
+		61584F841E4C0994007FB52F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61584F821E4C0994007FB52F /* Main.storyboard */; };
+		61584F861E4C0994007FB52F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61584F851E4C0994007FB52F /* Assets.xcassets */; };
+		61584F891E4C0994007FB52F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61584F871E4C0994007FB52F /* LaunchScreen.storyboard */; };
+		61584F941E4C0994007FB52F /* DFLLabelViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61584F931E4C0994007FB52F /* DFLLabelViewTests.m */; };
+		61584F9F1E4C0994007FB52F /* DFLLabelViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61584F9E1E4C0994007FB52F /* DFLLabelViewUITests.m */; };
+		61584FAF1E4C0B24007FB52F /* DFLLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 61584FAE1E4C0B24007FB52F /* DFLLabelView.m */; };
+		61B5BE101E4C3F3100EE8DCA /* DFLConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B5BE0F1E4C3F3100EE8DCA /* DFLConst.m */; };
+		61B5BE141E4C479800EE8DCA /* SelectCategoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B5BE131E4C479800EE8DCA /* SelectCategoryView.m */; };
+		61B5BE161E4C56E500EE8DCA /* 选择@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 61B5BE151E4C56E500EE8DCA /* 选择@2x.png */; };
+		61B5BE191E4C581100EE8DCA /* SizeCategoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B5BE181E4C581100EE8DCA /* SizeCategoryView.m */; };
+		61B5BE1D1E4C737300EE8DCA /* CategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B5BE1C1E4C737300EE8DCA /* CategoryCell.m */; };
+		61B5BE201E4C738300EE8DCA /* SizeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B5BE1F1E4C738300EE8DCA /* SizeCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61584F901E4C0994007FB52F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61584F6E1E4C0994007FB52F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61584F751E4C0994007FB52F;
+			remoteInfo = DFLLabelView;
+		};
+		61584F9B1E4C0994007FB52F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61584F6E1E4C0994007FB52F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61584F751E4C0994007FB52F;
+			remoteInfo = DFLLabelView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		61569F191E4D47D700C9657F /* CategoryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryModel.h; sourceTree = "<group>"; };
+		61569F1A1E4D47D700C9657F /* CategoryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryModel.m; sourceTree = "<group>"; };
+		61584F761E4C0994007FB52F /* DFLLabelView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DFLLabelView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61584F7A1E4C0994007FB52F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		61584F7C1E4C0994007FB52F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		61584F7D1E4C0994007FB52F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		61584F7F1E4C0994007FB52F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		61584F801E4C0994007FB52F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		61584F831E4C0994007FB52F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61584F851E4C0994007FB52F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61584F881E4C0994007FB52F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		61584F8A1E4C0994007FB52F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61584F8F1E4C0994007FB52F /* DFLLabelViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DFLLabelViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61584F931E4C0994007FB52F /* DFLLabelViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFLLabelViewTests.m; sourceTree = "<group>"; };
+		61584F951E4C0994007FB52F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61584F9A1E4C0994007FB52F /* DFLLabelViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DFLLabelViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61584F9E1E4C0994007FB52F /* DFLLabelViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFLLabelViewUITests.m; sourceTree = "<group>"; };
+		61584FA01E4C0994007FB52F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61584FAD1E4C0B24007FB52F /* DFLLabelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFLLabelView.h; sourceTree = "<group>"; };
+		61584FAE1E4C0B24007FB52F /* DFLLabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFLLabelView.m; sourceTree = "<group>"; };
+		61B5BE0E1E4C3F3100EE8DCA /* DFLConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFLConst.h; sourceTree = "<group>"; };
+		61B5BE0F1E4C3F3100EE8DCA /* DFLConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFLConst.m; sourceTree = "<group>"; };
+		61B5BE121E4C479800EE8DCA /* SelectCategoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectCategoryView.h; sourceTree = "<group>"; };
+		61B5BE131E4C479800EE8DCA /* SelectCategoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectCategoryView.m; sourceTree = "<group>"; };
+		61B5BE151E4C56E500EE8DCA /* 选择@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "选择@2x.png"; sourceTree = "<group>"; };
+		61B5BE171E4C581100EE8DCA /* SizeCategoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SizeCategoryView.h; sourceTree = "<group>"; };
+		61B5BE181E4C581100EE8DCA /* SizeCategoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SizeCategoryView.m; sourceTree = "<group>"; };
+		61B5BE1B1E4C737300EE8DCA /* CategoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryCell.h; sourceTree = "<group>"; };
+		61B5BE1C1E4C737300EE8DCA /* CategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryCell.m; sourceTree = "<group>"; };
+		61B5BE1E1E4C738300EE8DCA /* SizeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SizeCell.h; sourceTree = "<group>"; };
+		61B5BE1F1E4C738300EE8DCA /* SizeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SizeCell.m; sourceTree = "<group>"; };
+		863F3C102CC820146E39EAB3 /* libPods-DFLLabelView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DFLLabelView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FFE60602543A9E679C964DB /* Pods-DFLLabelView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DFLLabelView.release.xcconfig"; path = "Pods/Target Support Files/Pods-DFLLabelView/Pods-DFLLabelView.release.xcconfig"; sourceTree = "<group>"; };
+		B81C59F8C1903267412241C1 /* Pods-DFLLabelView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DFLLabelView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DFLLabelView/Pods-DFLLabelView.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61584F731E4C0994007FB52F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				050E3C5A174A2BEA0ABE8D24 /* libPods-DFLLabelView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61584F8C1E4C0994007FB52F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61584F971E4C0994007FB52F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A791E1EA60DD44990147AAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				863F3C102CC820146E39EAB3 /* libPods-DFLLabelView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		61584F6D1E4C0994007FB52F = {
+			isa = PBXGroup;
+			children = (
+				61584F781E4C0994007FB52F /* DFLLabelView */,
+				61584F921E4C0994007FB52F /* DFLLabelViewTests */,
+				61584F9D1E4C0994007FB52F /* DFLLabelViewUITests */,
+				61584F771E4C0994007FB52F /* Products */,
+				AEAA76A58292D1D25E98C5EB /* Pods */,
+				3A791E1EA60DD44990147AAD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		61584F771E4C0994007FB52F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61584F761E4C0994007FB52F /* DFLLabelView.app */,
+				61584F8F1E4C0994007FB52F /* DFLLabelViewTests.xctest */,
+				61584F9A1E4C0994007FB52F /* DFLLabelViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61584F781E4C0994007FB52F /* DFLLabelView */ = {
+			isa = PBXGroup;
+			children = (
+				61B5BE151E4C56E500EE8DCA /* 选择@2x.png */,
+				61584FAC1E4C0AF6007FB52F /* DFLLabelView */,
+				61584F7C1E4C0994007FB52F /* AppDelegate.h */,
+				61584F7D1E4C0994007FB52F /* AppDelegate.m */,
+				61584F7F1E4C0994007FB52F /* ViewController.h */,
+				61584F801E4C0994007FB52F /* ViewController.m */,
+				61B5BE1B1E4C737300EE8DCA /* CategoryCell.h */,
+				61B5BE1C1E4C737300EE8DCA /* CategoryCell.m */,
+				61B5BE1E1E4C738300EE8DCA /* SizeCell.h */,
+				61B5BE1F1E4C738300EE8DCA /* SizeCell.m */,
+				61B5BE0E1E4C3F3100EE8DCA /* DFLConst.h */,
+				61B5BE0F1E4C3F3100EE8DCA /* DFLConst.m */,
+				61B5BE121E4C479800EE8DCA /* SelectCategoryView.h */,
+				61B5BE131E4C479800EE8DCA /* SelectCategoryView.m */,
+				61B5BE171E4C581100EE8DCA /* SizeCategoryView.h */,
+				61B5BE181E4C581100EE8DCA /* SizeCategoryView.m */,
+				61569F191E4D47D700C9657F /* CategoryModel.h */,
+				61569F1A1E4D47D700C9657F /* CategoryModel.m */,
+				61584F821E4C0994007FB52F /* Main.storyboard */,
+				61584F851E4C0994007FB52F /* Assets.xcassets */,
+				61584F871E4C0994007FB52F /* LaunchScreen.storyboard */,
+				61584F8A1E4C0994007FB52F /* Info.plist */,
+				61584F791E4C0994007FB52F /* Supporting Files */,
+			);
+			path = DFLLabelView;
+			sourceTree = "<group>";
+		};
+		61584F791E4C0994007FB52F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				61584F7A1E4C0994007FB52F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		61584F921E4C0994007FB52F /* DFLLabelViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				61584F931E4C0994007FB52F /* DFLLabelViewTests.m */,
+				61584F951E4C0994007FB52F /* Info.plist */,
+			);
+			path = DFLLabelViewTests;
+			sourceTree = "<group>";
+		};
+		61584F9D1E4C0994007FB52F /* DFLLabelViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				61584F9E1E4C0994007FB52F /* DFLLabelViewUITests.m */,
+				61584FA01E4C0994007FB52F /* Info.plist */,
+			);
+			path = DFLLabelViewUITests;
+			sourceTree = "<group>";
+		};
+		61584FAC1E4C0AF6007FB52F /* DFLLabelView */ = {
+			isa = PBXGroup;
+			children = (
+				61584FAD1E4C0B24007FB52F /* DFLLabelView.h */,
+				61584FAE1E4C0B24007FB52F /* DFLLabelView.m */,
+			);
+			path = DFLLabelView;
+			sourceTree = "<group>";
+		};
+		AEAA76A58292D1D25E98C5EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B81C59F8C1903267412241C1 /* Pods-DFLLabelView.debug.xcconfig */,
+				8FFE60602543A9E679C964DB /* Pods-DFLLabelView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61584F751E4C0994007FB52F /* DFLLabelView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61584FA31E4C0994007FB52F /* Build configuration list for PBXNativeTarget "DFLLabelView" */;
+			buildPhases = (
+				0C0B85FADB81C1911E4BE0FB /* [CP] Check Pods Manifest.lock */,
+				61584F721E4C0994007FB52F /* Sources */,
+				61584F731E4C0994007FB52F /* Frameworks */,
+				61584F741E4C0994007FB52F /* Resources */,
+				C95DA5157D4C51A8CFD9674E /* [CP] Embed Pods Frameworks */,
+				E456C7C0C96A8C4891FF5C17 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DFLLabelView;
+			productName = DFLLabelView;
+			productReference = 61584F761E4C0994007FB52F /* DFLLabelView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		61584F8E1E4C0994007FB52F /* DFLLabelViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61584FA61E4C0994007FB52F /* Build configuration list for PBXNativeTarget "DFLLabelViewTests" */;
+			buildPhases = (
+				61584F8B1E4C0994007FB52F /* Sources */,
+				61584F8C1E4C0994007FB52F /* Frameworks */,
+				61584F8D1E4C0994007FB52F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61584F911E4C0994007FB52F /* PBXTargetDependency */,
+			);
+			name = DFLLabelViewTests;
+			productName = DFLLabelViewTests;
+			productReference = 61584F8F1E4C0994007FB52F /* DFLLabelViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		61584F991E4C0994007FB52F /* DFLLabelViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61584FA91E4C0994007FB52F /* Build configuration list for PBXNativeTarget "DFLLabelViewUITests" */;
+			buildPhases = (
+				61584F961E4C0994007FB52F /* Sources */,
+				61584F971E4C0994007FB52F /* Frameworks */,
+				61584F981E4C0994007FB52F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61584F9C1E4C0994007FB52F /* PBXTargetDependency */,
+			);
+			name = DFLLabelViewUITests;
+			productName = DFLLabelViewUITests;
+			productReference = 61584F9A1E4C0994007FB52F /* DFLLabelViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61584F6E1E4C0994007FB52F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = DFL;
+				TargetAttributes = {
+					61584F751E4C0994007FB52F = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					61584F8E1E4C0994007FB52F = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 61584F751E4C0994007FB52F;
+					};
+					61584F991E4C0994007FB52F = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 61584F751E4C0994007FB52F;
+					};
+				};
+			};
+			buildConfigurationList = 61584F711E4C0994007FB52F /* Build configuration list for PBXProject "DFLLabelView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61584F6D1E4C0994007FB52F;
+			productRefGroup = 61584F771E4C0994007FB52F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61584F751E4C0994007FB52F /* DFLLabelView */,
+				61584F8E1E4C0994007FB52F /* DFLLabelViewTests */,
+				61584F991E4C0994007FB52F /* DFLLabelViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61584F741E4C0994007FB52F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61B5BE161E4C56E500EE8DCA /* 选择@2x.png in Resources */,
+				61584F891E4C0994007FB52F /* LaunchScreen.storyboard in Resources */,
+				61584F861E4C0994007FB52F /* Assets.xcassets in Resources */,
+				61584F841E4C0994007FB52F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61584F8D1E4C0994007FB52F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61584F981E4C0994007FB52F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C0B85FADB81C1911E4BE0FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C95DA5157D4C51A8CFD9674E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DFLLabelView/Pods-DFLLabelView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E456C7C0C96A8C4891FF5C17 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DFLLabelView/Pods-DFLLabelView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61584F721E4C0994007FB52F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61584F811E4C0994007FB52F /* ViewController.m in Sources */,
+				61B5BE191E4C581100EE8DCA /* SizeCategoryView.m in Sources */,
+				61B5BE101E4C3F3100EE8DCA /* DFLConst.m in Sources */,
+				61569F1B1E4D47D700C9657F /* CategoryModel.m in Sources */,
+				61B5BE201E4C738300EE8DCA /* SizeCell.m in Sources */,
+				61584F7E1E4C0994007FB52F /* AppDelegate.m in Sources */,
+				61584FAF1E4C0B24007FB52F /* DFLLabelView.m in Sources */,
+				61B5BE141E4C479800EE8DCA /* SelectCategoryView.m in Sources */,
+				61584F7B1E4C0994007FB52F /* main.m in Sources */,
+				61B5BE1D1E4C737300EE8DCA /* CategoryCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61584F8B1E4C0994007FB52F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61584F941E4C0994007FB52F /* DFLLabelViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61584F961E4C0994007FB52F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61584F9F1E4C0994007FB52F /* DFLLabelViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61584F911E4C0994007FB52F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61584F751E4C0994007FB52F /* DFLLabelView */;
+			targetProxy = 61584F901E4C0994007FB52F /* PBXContainerItemProxy */;
+		};
+		61584F9C1E4C0994007FB52F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61584F751E4C0994007FB52F /* DFLLabelView */;
+			targetProxy = 61584F9B1E4C0994007FB52F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		61584F821E4C0994007FB52F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61584F831E4C0994007FB52F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		61584F871E4C0994007FB52F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61584F881E4C0994007FB52F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61584FA11E4C0994007FB52F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		61584FA21E4C0994007FB52F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61584FA41E4C0994007FB52F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B81C59F8C1903267412241C1 /* Pods-DFLLabelView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DFLLabelView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dfl.DFLLabelView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Debug;
+		};
+		61584FA51E4C0994007FB52F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FFE60602543A9E679C964DB /* Pods-DFLLabelView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DFLLabelView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dfl.DFLLabelView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Release;
+		};
+		61584FA71E4C0994007FB52F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DFLLabelViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dfl.DFLLabelViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DFLLabelView.app/DFLLabelView";
+			};
+			name = Debug;
+		};
+		61584FA81E4C0994007FB52F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DFLLabelViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dfl.DFLLabelViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DFLLabelView.app/DFLLabelView";
+			};
+			name = Release;
+		};
+		61584FAA1E4C0994007FB52F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DFLLabelViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dfl.DFLLabelViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DFLLabelView;
+			};
+			name = Debug;
+		};
+		61584FAB1E4C0994007FB52F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DFLLabelViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dfl.DFLLabelViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DFLLabelView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61584F711E4C0994007FB52F /* Build configuration list for PBXProject "DFLLabelView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61584FA11E4C0994007FB52F /* Debug */,
+				61584FA21E4C0994007FB52F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61584FA31E4C0994007FB52F /* Build configuration list for PBXNativeTarget "DFLLabelView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61584FA41E4C0994007FB52F /* Debug */,
+				61584FA51E4C0994007FB52F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61584FA61E4C0994007FB52F /* Build configuration list for PBXNativeTarget "DFLLabelViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61584FA71E4C0994007FB52F /* Debug */,
+				61584FA81E4C0994007FB52F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61584FA91E4C0994007FB52F /* Build configuration list for PBXNativeTarget "DFLLabelViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61584FAA1E4C0994007FB52F /* Debug */,
+				61584FAB1E4C0994007FB52F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61584F6E1E4C0994007FB52F /* Project object */;
+}
