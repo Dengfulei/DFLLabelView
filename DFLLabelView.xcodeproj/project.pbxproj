@@ -18,6 +18,7 @@
 		61584F941E4C0994007FB52F /* DFLLabelViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61584F931E4C0994007FB52F /* DFLLabelViewTests.m */; };
 		61584F9F1E4C0994007FB52F /* DFLLabelViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61584F9E1E4C0994007FB52F /* DFLLabelViewUITests.m */; };
 		61584FAF1E4C0B24007FB52F /* DFLLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 61584FAE1E4C0B24007FB52F /* DFLLabelView.m */; };
+		61741FBD1E51829A00F91473 /* DFLHttpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 61741FBC1E51829A00F91473 /* DFLHttpManager.m */; };
 		61B5BE101E4C3F3100EE8DCA /* DFLConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B5BE0F1E4C3F3100EE8DCA /* DFLConst.m */; };
 		61B5BE141E4C479800EE8DCA /* SelectCategoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B5BE131E4C479800EE8DCA /* SelectCategoryView.m */; };
 		61B5BE161E4C56E500EE8DCA /* 选择@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 61B5BE151E4C56E500EE8DCA /* 选择@2x.png */; };
@@ -64,6 +65,8 @@
 		61584FA01E4C0994007FB52F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61584FAD1E4C0B24007FB52F /* DFLLabelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFLLabelView.h; sourceTree = "<group>"; };
 		61584FAE1E4C0B24007FB52F /* DFLLabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFLLabelView.m; sourceTree = "<group>"; };
+		61741FBB1E51829A00F91473 /* DFLHttpManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFLHttpManager.h; sourceTree = "<group>"; };
+		61741FBC1E51829A00F91473 /* DFLHttpManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFLHttpManager.m; sourceTree = "<group>"; };
 		61B5BE0E1E4C3F3100EE8DCA /* DFLConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFLConst.h; sourceTree = "<group>"; };
 		61B5BE0F1E4C3F3100EE8DCA /* DFLConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFLConst.m; sourceTree = "<group>"; };
 		61B5BE121E4C479800EE8DCA /* SelectCategoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectCategoryView.h; sourceTree = "<group>"; };
@@ -139,6 +142,8 @@
 		61584F781E4C0994007FB52F /* DFLLabelView */ = {
 			isa = PBXGroup;
 			children = (
+				61741FBB1E51829A00F91473 /* DFLHttpManager.h */,
+				61741FBC1E51829A00F91473 /* DFLHttpManager.m */,
 				61B5BE151E4C56E500EE8DCA /* 选择@2x.png */,
 				61584FAC1E4C0AF6007FB52F /* DFLLabelView */,
 				61584F7C1E4C0994007FB52F /* AppDelegate.h */,
@@ -395,6 +400,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61741FBD1E51829A00F91473 /* DFLHttpManager.m in Sources */,
 				61584F811E4C0994007FB52F /* ViewController.m in Sources */,
 				61B5BE191E4C581100EE8DCA /* SizeCategoryView.m in Sources */,
 				61B5BE101E4C3F3100EE8DCA /* DFLConst.m in Sources */,
